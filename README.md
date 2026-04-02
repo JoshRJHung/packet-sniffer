@@ -138,7 +138,3 @@ sudo python3 sniffer.py -f tcp -p 443 -c 50 -o https_capture.txt
 This tool is intended for use **only on networks you own or have explicit permission to monitor**. Capturing traffic on networks without authorization is illegal in most jurisdictions. Use responsibly.
 
 ---
-
-## License
-
-MIT License — see [LICENSE](LICENSE) for details.
