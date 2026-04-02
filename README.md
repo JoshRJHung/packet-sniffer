@@ -45,8 +45,13 @@ packet-sniffer/
 git clone https://github.com/JoshRJHung/packet-sniffer.git
 cd packet-sniffer
 
-# 2. Install dependencies
+#Option A - Virtual Environment(Recommended)
+python3 -m venv venv
+source /venv/bin/activate
 pip install -r requirements.txt
+
+#Option B - System-wide install
+pip install scapy --break-system-packages 
 ```
 
 ---
@@ -54,6 +59,8 @@ pip install -r requirements.txt
 ## Usage
 
 > **Note:** Must be run with `sudo` on Linux/macOS, or as Administrator on Windows.
+> If using a virtual environment: sudo venv/bin/python3 sniffer.py
+> If using a system-wide install: sudo python3 sniffer.py
 
 ```bash
 # Capture all packets (unlimited)
