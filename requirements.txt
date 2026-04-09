@@ -1,4 +1,1 @@
-# Requirements for packet-sniffer
-# Install all dependencies with: pip install -r requirements.txt
-
 scapy==2.5.0
