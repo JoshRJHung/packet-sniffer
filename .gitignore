@@ -1,0 +1,20 @@
+# Project-specific
+
+.codex
+
+# Python cache
+
+**pycache**/
+*.pyc
+
+# Virtual environment
+
+venv/
+
+# Environment variables
+
+.env
+
+# Logs
+
+*.log
